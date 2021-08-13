@@ -1,8 +1,8 @@
 # import py
 import sys
-sys.path.append('./task_01')
+sys.path.insert(0,'..')
 print(sys.path)
-from task_01.task1 import check_password
+from task_01 import task1
 f = task1.check_password
-
-print(f('xx'))
+# #
+f('xx')

@@ -8,4 +8,4 @@ def mults(n1: int, n2: int, N: int):
 
 
 if __name__ == '__main__':
-    print(mults(3, 5, 1000))
+    print(mults(3, 5, 10))
