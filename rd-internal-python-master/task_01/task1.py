@@ -10,20 +10,21 @@ def check_password(p: str):
     '''
     if not isinstance(p, str):
         print(f"error: {p} is not a string")
-        return
+        return False
     if len(p) <= 8:
         print("error: too short, min length is 8")
-        return
+        return False
     if not re.search(r'\d', p):
         print("error: should contain at least one digit")
-        return
+        return False
     if not re.search('[a-z]', p):
         print("error: should contain at least one lowercase letter")
-        return
+        return False
     if not re.search('[A-Z]', p):
         print("error: should contain at least one uppercase letter")
-        return
+        return False
     print("Looks good!")
+    return True
 
 
 if __name__ == '__main__':
