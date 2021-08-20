@@ -28,7 +28,7 @@ def check_password(p: str):
 
 
 if __name__ == '__main__':
-    p = "aaaBBBBBBBBBBBBBBBBBBBBBBB"
+    p = "aaaBBBBBBBBBBBBBBBBBBBBB7BB"
     # print(re.match('[a-z]', p))
     # p = 'ABAD#&&1zz'
     check_password(p)
