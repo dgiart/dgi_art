@@ -1,7 +1,7 @@
 import pytest
 import sys
 
-sys.path.insert(0, '..')
+sys.path.insert(0, '../..')
 from task_03 import task3
 
 text_to_test = '''

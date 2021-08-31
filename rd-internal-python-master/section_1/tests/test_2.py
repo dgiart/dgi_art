@@ -1,7 +1,7 @@
 import pytest
 import sys
 
-sys.path.insert(0, '..')
+sys.path.insert(0, '../..')
 from task_02 import task2
 
 list_to_test = [1, 2., 'a', {1:'one'}, (1,2), 3]

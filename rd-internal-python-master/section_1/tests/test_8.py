@@ -1,7 +1,7 @@
 import pytest
 import sys
 
-sys.path.insert(0, '..')
+sys.path.insert(0, '../..')
 from task_08 import task8
 
 def test_check_ip():
