@@ -1,7 +1,10 @@
 import pytest
 import sys
 
-sys.path.insert(0, '../..')
+sys.path.insert(0, '..')
+for el in sys.path:
+    print(el)
+
 from task_01 import task1
 
 check_password = task1.check_password
